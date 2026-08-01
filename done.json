@@ -131,19 +131,6 @@
       "type": "filter"
     },
     {
-      "id": "r-1440p",
-      "groupId": "resolution",
-      "name": "1440p",
-      "pattern": "(?i)\\b1440[pi]?\\b",
-      "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/1440p.png",
-      "isEnabled": true,
-      "tagColor": "#33FFBE01",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFFFF",
-      "borderColor": "#FFFFBE01",
-      "type": "filter"
-    },
-    {
       "id": "q-remux",
       "groupId": "source",
       "name": "Remux",
