@@ -1,6 +1,84 @@
 {
   "filters": [
     {
+      "id": "qu-1080",
+      "groupId": "quality",
+      "name": "1080p",
+      "pattern": "(?i)\\b1080[pi]?\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-1080p.svg",
+      "isEnabled": true,
+      "tagColor": "#339B59B6",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFFFF",
+      "borderColor": "#FF9B59B6",
+      "type": "filter"
+    },
+    {
+      "id": "qu-720",
+      "groupId": "quality",
+      "name": "720p",
+      "pattern": "(?i)\\b720[pi]?\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-720p.svg",
+      "isEnabled": true,
+      "tagColor": "#339B59B6",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFFFF",
+      "borderColor": "#FF9B59B6",
+      "type": "filter"
+    },
+    {
+      "id": "qu-576",
+      "groupId": "quality",
+      "name": "576p",
+      "pattern": "(?i)\\b576[pi]?\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-576p.svg",
+      "isEnabled": true,
+      "tagColor": "#339B59B6",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFFFF",
+      "borderColor": "#FF9B59B6",
+      "type": "filter"
+    },
+    {
+      "id": "qu-480",
+      "groupId": "quality",
+      "name": "480p",
+      "pattern": "(?i)\\b480[pi]?\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-480p.svg",
+      "isEnabled": true,
+      "tagColor": "#339B59B6",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFFFF",
+      "borderColor": "#FF9B59B6",
+      "type": "filter"
+    },
+    {
+      "id": "qu-360",
+      "groupId": "quality",
+      "name": "360p",
+      "pattern": "(?i)\\b360[pi]?\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-360p.svg",
+      "isEnabled": true,
+      "tagColor": "#339B59B6",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFFFF",
+      "borderColor": "#FF9B59B6",
+      "type": "filter"
+    },
+    {
+      "id": "qu-240",
+      "groupId": "quality",
+      "name": "240p",
+      "pattern": "(?i)\\b240[pi]?\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-240p.svg",
+      "isEnabled": true,
+      "tagColor": "#339B59B6",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFFFF",
+      "borderColor": "#FF9B59B6",
+      "type": "filter"
+    },
+    {
       "id": "r-4k",
       "groupId": "resolution",
       "name": "4K",
@@ -169,86 +247,15 @@
       "borderColor": "#FFFFD700",
       "type": "filter"
     },
-    {
-      "id": "qu-1080",
-      "groupId": "quality",
-      "name": "1080p",
-      "pattern": "(?i)\\b1080[pi]?\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-1080p.svg",
-      "isEnabled": true,
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "id": "qu-720",
-      "groupId": "quality",
-      "name": "720p",
-      "pattern": "(?i)\\b720[pi]?\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-720p.svg",
-      "isEnabled": true,
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#888d93",
-      "borderColor": "#888d93",
-      "type": "filter"
-    },
-    {
-      "id": "qu-576",
-      "groupId": "quality",
-      "name": "576p",
-      "pattern": "(?i)\\b576[pi]?\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-576p.svg",
-      "isEnabled": true,
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#888d93",
-      "borderColor": "#888d93",
-      "type": "filter"
-    },
-    {
-      "id": "qu-480",
-      "groupId": "quality",
-      "name": "480p",
-      "pattern": "(?i)\\b480[pi]?\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-480p.svg",
-      "isEnabled": true,
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#888d93",
-      "borderColor": "#888d93",
-      "type": "filter"
-    },
-    {
-      "id": "qu-360",
-      "groupId": "quality",
-      "name": "360p",
-      "pattern": "(?i)\\b360[pi]?\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-360p.svg",
-      "isEnabled": true,
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#888d93",
-      "borderColor": "#888d93",
-      "type": "filter"
-    },
-    {
-      "id": "qu-240",
-      "groupId": "quality",
-      "name": "240p",
-      "pattern": "(?i)\\b240[pi]?\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/grey-240p.svg",
-      "isEnabled": true,
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#888d93",
-      "borderColor": "#888d93",
-      "type": "filter"
-    }
   ],
   "groups": [
+    {
+      "id": "quality",
+      "name": "Quality",
+      "color": "#339B59B6",
+      "borderColor": "#FF9B59B6",
+      "isExpanded": true
+    },
     {
       "id": "resolution",
       "name": "Resolution",
@@ -282,13 +289,6 @@
       "name": "Channels",
       "color": "#FFFFD700",
       "borderColor": "#FFFFD700",
-      "isExpanded": true
-    },
-    {
-      "id": "quality",
-      "name": "Quality",
-      "color": "#FF27C04F",
-      "borderColor": "#FF858283",
       "isExpanded": true
     }
   ]
