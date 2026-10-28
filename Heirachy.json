@@ -1,0 +1,130 @@
+{
+  "groups": [
+    {
+      "borderColor": "#000000",
+      "color": "#000000",
+      "id": "gr",
+      "isExpanded": true,
+      "name": "Resolution"
+    }
+  ],
+  "filters": [
+    {
+      "id": "r-4k",
+      "name": "4K",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200c\u200d\u200d\u200c\u200c\u200d\u2064)",
+      "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/4k.png?rev=cd4d1835a950",
+      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-1440p",
+      "name": "1440p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200c\u200d\u200d\u200c\u200d\u200c\u2064)",
+      "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/1440p.png?rev=d277dc1a5ce9",
+      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-1080",
+      "name": "1080p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200c\u200d\u200d\u200c\u200d\u200d\u2064)",
+      "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/1080p.png?rev=c95aa05b8acf",
+      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-720",
+      "name": "720p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200c\u200d\u200d\u200d\u200c\u200c\u2064)",
+      "imageURL": "https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkingsizew%2Fbadges%2Fmain%2Fbadge-images%2Fresolution%2F720p.png%3Frev%3Ddf348c6026cc&filt=duotone&start=9CA3AF&stop=9CA3AF",
+      "textColor": "#9CA3AF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-576p",
+      "name": "576p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200c\u200d\u200d\u200d\u200c\u200d\u2064)",
+      "imageURL": "https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkingsizew%2Fbadges%2Fmain%2Fbadge-images%2Fresolution%2F576p.png%3Frev%3D205a9628d612&filt=duotone&start=9CA3AF&stop=9CA3AF",
+      "textColor": "#9CA3AF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-480p",
+      "name": "480p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200c\u200d\u200d\u200d\u200d\u200c\u2064)",
+      "imageURL": "https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkingsizew%2Fbadges%2Fmain%2Fbadge-images%2Fresolution%2F480p.png%3Frev%3Dd10baa0a6dc7&filt=duotone&start=9CA3AF&stop=9CA3AF",
+      "textColor": "#9CA3AF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-360p",
+      "name": "360p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200c\u200d\u200d\u200d\u200d\u200d\u2064)",
+      "imageURL": "https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkingsizew%2Fbadges%2Fmain%2Fbadge-images%2Fresolution%2F360p.png%3Frev%3D3224a4b6ab3b&filt=duotone&start=9CA3AF&stop=9CA3AF",
+      "textColor": "#9CA3AF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-240p",
+      "name": "240p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200d\u200c\u200c\u200c\u200c\u200c\u2064)",
+      "imageURL": "https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkingsizew%2Fbadges%2Fmain%2Fbadge-images%2Fresolution%2F240p.png%3Frev%3D8e9b0e772c99&filt=duotone&start=9CA3AF&stop=9CA3AF",
+      "textColor": "#9CA3AF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "r-144p",
+      "name": "144p",
+      "groupId": "gr",
+      "isEnabled": true,
+      "pattern": "(?s)^(?=.*\u2063\u200c\u200c\u200d\u200c\u200c\u200c\u200c\u200d\u2064)",
+      "imageURL": "https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkingsizew%2Fbadges%2Fmain%2Fbadge-images%2Fresolution%2F144p.png%3Frev%3D4c86ab0bf929&filt=duotone&start=9CA3AF&stop=9CA3AF",
+      "textColor": "#9CA3AF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "bordered",
+      "type": "filter"
+    }
+  ]
+}
