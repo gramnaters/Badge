@@ -3,7 +3,7 @@
 A collection of Fusion Badge packs and AIOStreams formatters for apps featuring Fusion Badges, such as [**AIOStreams**](https://github.com/Viren070/AIOStreams), [**Nuvio**](https://github.com/NuvioMedia)...\
 The badge packs turn stream metadata into compact visual badges for source, resolution, quality, HDR, audio, channels, encoder, streaming service, language, subtitles, and special tags.
 
-The repo includes 7 badge styles, V1 badge packs for any formatter, Instant V2
+The repo includes 8 badge styles, V1 badge packs for any formatter, Instant V2
 badge packs for marker-enabled AIOStreams formatters, 5 ready-to-use formatters,
 and a marker template for custom formatters.
 
@@ -52,6 +52,7 @@ V1 packs work with any formatter and use the standard badge matching.
 | White | [white_badges.json](white_badges.json) | [Raw URL](https://raw.githubusercontent.com/gramnaters/Badge/main/white_badges.json) |
 | Mono White | [mono_white_badges.json](mono_white_badges.json) | [Raw URL](https://raw.githubusercontent.com/gramnaters/Badge/main/mono_white_badges.json) |
 | Black | [black_badges.json](black_badges.json) | [Raw URL](https://raw.githubusercontent.com/gramnaters/Badge/main/black_badges.json) |
+| Borderless | [borderless_badges.json](borderless_badges.json) | [Raw URL](https://raw.githubusercontent.com/gramnaters/Badge/main/borderless_badges.json) |
 
 ### V2 Badge Packs
 
